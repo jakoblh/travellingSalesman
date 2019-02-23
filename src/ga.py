@@ -2,7 +2,7 @@ import numpy as np
 
 
 def rand_points(num):
-    return np.random.randint(0, 10, (num, 2))
+    return np.random.randint(0, 100, (num, 2))
 
 
 def rand_path(num):
